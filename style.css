@@ -1,0 +1,226 @@
+* {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fceffc;
+    background-image: url(./assets/images/background-pattern-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* main container start */
+#main-container {
+    margin: 150px 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+/* main container end */
+/* main header start */
+#main-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#main-header #star-icon {
+    width: 13px;
+}
+
+#main-header h2 {
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+/* main header end */
+/* section1 start */
+#section1 {
+    border: 1px solid transparent; /* Default border for all sides */
+    border-left: none;
+    border-right: none;
+    border-color: #eeeeee; /* Apply color to the top and bottom */
+}
+
+#section1 #section1-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#section1 #section1-header h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    flex-basis: 80%;
+}
+
+#section1 #section1-header h4:hover {
+    color: #d900f6;
+    cursor: pointer;
+}
+
+#section1 #section1-header img {
+    width: 2px;
+    flex-basis: 9%;
+    cursor: pointer;
+}
+
+#section1 #section-header .toggle-icon.plus {
+    background-image: url("./assets/images/icon-plus.svg");
+}
+
+
+#section1 p{
+    font-size: .7rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+/* section1 end */
+/* section2 start */
+#section2 {
+    border-bottom: 1px solid transparent;
+    border-color: #eeeeee; 
+}
+
+
+#section2 #section2-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#section2 #section2-header h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    flex-basis: 80%;
+}
+
+#section2 #section2-header h4:hover {
+    color: #d900f6;
+    cursor: pointer;
+}
+
+#section2 #section2-header img {
+    width: 2px;
+    flex-basis: 9%;
+}
+
+#section2 #section2-header img:hover {
+    cursor: pointer;
+}
+
+#section2 p{
+    font-size: .7rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+/* section2 end */
+/* section3 start */
+#section3 {
+    border-bottom: 1px solid transparent;
+    border-color: #eeeeee; /* Apply color to the top and bottom */
+}
+
+#section3 #section3-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+#section3 #section3-header h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    flex-basis: 80%;
+}
+
+#section3 #section3-header h4:hover {
+    color: #d900f6;
+    cursor: pointer;
+}
+
+#section3 #section3-header img {
+    width: 2px;
+    flex-basis: 9%;
+}
+
+#section3 #section3-header img:hover {
+    cursor: pointer;
+}
+
+#section3 p{
+    font-size: .7rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+/* section3 end */
+/* section4 start */
+#section4 #section4-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+#section4 #section4-header h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    flex-basis: 80%;
+}
+
+#section4 #section4-header h4:hover {
+    color: #d900f6;
+    cursor: pointer;
+}
+
+#section4 #section4-header img {
+    width: 2px;
+    flex-basis: 9%;
+}
+
+#section4 #section4-header img:hover {
+    cursor: pointer;
+}
+
+#section4 p{
+    font-size: .7rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+/* section4 end */
+/* hide the pragrapg */
+.hidden {
+    display: none;
+}
+/* end */
+
+/* Media query for desketop (1440px) */
+@media (min-width:380px) {
+    body {
+        background-size: cover;
+        background-position:center bottom;
+        padding-bottom: 300px;
+    }
+    #main-container{
+        width: 380px;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #main-header #star-icon {
+        width: 20px;
+    }
+
+    #main-header h2 {
+        margin-left: 15px;
+        font-size: 1.4rem;
+    }
+}
